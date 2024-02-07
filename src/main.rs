@@ -127,3 +127,14 @@ fn next_dyck_word_bin(w: u64) -> u128 {
     // Return the resulting Dyck word as a u128.
     ((c * c - 1) & mask) | b as u128
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::*;
+
+    #[test]
+    fn check_catalan_numbers() {
+        let c_5 = catalan_number(5);
+        assert_eq!(c_5, 42);
+    }
+}

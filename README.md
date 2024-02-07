@@ -19,5 +19,5 @@ to read the results. It prints the Catalan number of your semilength's order at 
 
 ## Possible Improvements
 
-- [ ] Check that this actually works as advertised, using tests...?
+- [x] Check that this actually works as advertised, using tests...?
 - [ ] Explore the possibility of using explicit multi-threading with `rayon` or `crossbeams`?
